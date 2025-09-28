@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Prop+Single+Ink:wght@100..900&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+
+body{
+    background-color: rgb(187, 107, 187);
+}
+
+.container{
+
+    padding: 5px;
+    margin: 100px;
+    height: 590px;
+    width:450px;
+    border: none;
+    border-radius: 10px;
+    font-size: 100%;
+    background-color: blueviolet;
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+    position: absolute;
+    left: 250px;
+    top: -59px;
+}
+
+input{
+    padding: 1px;
+    background-color: plum;
+    border: none;
+    height: 30px;
+    width: 240px;
+    border-radius: 20px;
+    color: #9400D3;
+    font-family: "Bitcount Prop Single Ink", system-ui;
+    font-size: larger;
+    text-align: center;
+    
+}
+
+.Extras{
+    padding: 15px;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.Extra_2{
+    padding: 17px;
+    position: absolute;
+    bottom: 2px;
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+}
+
+.in{
+    display: flex;
+    justify-content: center; /* horizontal centering */
+    align-items: center;
+    padding-top: 20px;
+}
+
+.top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    height: 12px;
+    width: 30px;;
+}
+
+#wind{
+    height: 20px;
+}
+
+#weather{
+    height: 150px;
+    width: 150px;
+}
